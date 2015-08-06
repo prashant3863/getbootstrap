@@ -1,0 +1,186 @@
+/* main.css */
+
+html, body, h1, h2, h3, h4, p, div, li {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+} 
+header {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #6f5499;
+  display: inline;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+footer {
+  margin-bottom: 40px;
+}
+header li, footer li{
+  display: inline-table;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 15px;
+}
+nav ul {
+  display: inline-table;
+}
+.nav-header {
+  float: left;
+  padding-left: 150px;
+}
+.nav-header li {
+  font-size: 18px;
+}
+.nav-mid {
+  padding-left: 0;
+  margin-left: -370px;
+}
+.nav-end {
+  float: right;
+  padding-right: 150px;
+}
+.nav-mid:hover li, .nav-end:hover li {
+  background-color: rgb(240, 240, 240); 
+}
+footer li {
+  margin: 5px;
+  display: inline-table;
+}
+.intro {
+  height: 400px;
+  background-color: #6f5499;
+  padding: 80px;
+}
+.intro h1 {
+  width: 125px;
+  font-size: 110px;
+  color: white;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 auto 0 auto;
+}
+.intro p {
+  width: 830px;
+  font-size: 28px;
+  font-weight: 300;
+  color: white;
+  padding-top: 20px;
+  margin: 20px auto 20px auto;
+}
+.intro .download {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 210px;
+  padding: 15px;
+}
+.intro .download:hover {
+  background-color: #ffffff;
+  color: #6f5499;
+}
+.intro .version {
+  font-size: 14px;
+  opacity: 0.3;
+  padding-top: 5px;
+  text-align: center;
+}
+.specs, .examples {
+  color: rgb(85, 85, 85);
+  padding-bottom: 90px;
+  border-bottom: 1px solid #eee;
+}
+.specs h1, .examples h1 {
+  font-size: 40px;
+  font-weight: normal;
+  color: rgb(51, 51, 51); 
+  line-height: 44px;
+  margin-bottom: 5px;
+  margin-top: 120px;
+}
+.specs h2, .examples h2 {
+  font-size: 21px;
+  font-weight: 300;
+  width: 950px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.middle {
+  width: 100px;
+  border: 1px solid #eee;
+  margin: 10px auto 40px auto;
+}
+.container {
+  width: 370px;
+  height: 150px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+.content {
+  width: 345px;
+  margin: 0 auto;
+  margin-right: 20px;
+  display: inline-table;
+}
+.content h3 {
+  font-size: 24px;
+  color: rgb(55, 55, 55);
+  padding-bottom: 10px;
+}
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.github, .explore {
+  color: #6f5499;
+  background-color: #ffffff;
+  width: 220px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.github:hover, .explore:hover {
+  color: #ffffff;
+  background-color: #6f5499;
+}
+.github p, .explore p {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+.eximg {
+  width: 285.5px;
+  height: 215px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.eximg img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+.social {
+  padding-top: 30px;
+}
+.footer-content {
+  font-size: 14px;
+  line-height: 1.43;
+  color: rgb(85, 85, 85); 
+  font-weight: 300;
+  text-align: center;
+}
+.footer-content li {
+  font-weight: 300;
+}
+
